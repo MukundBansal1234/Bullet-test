@@ -1,7 +1,7 @@
 var bullet,wall;
 var speed,weight,thickness;
 function setup(){
-  createCanvas(400,1600);
+  createCanvas(1600,400);
 speed=random(223,321);
 weight=random(30,52);
 thickness=random(22,83);
