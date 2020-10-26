@@ -11,7 +11,7 @@ wall.shapeColor=color(80,80,80);
 bullet.shapeColor=white
 }
 function draw(){
-  background(grey);
+  background(150);
   bullet.velocityX=speed;
   if(hascollided(bullet,wall)){
     bullet.velocityX=0;
