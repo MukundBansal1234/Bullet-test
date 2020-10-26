@@ -8,7 +8,7 @@ thickness=random(22,83);
 bullet=createSprite(50,200,100,10);
 wall=createSprite(1200,200,thickness,height/2);
 wall.shapeColor=color(80,80,80);
-bullet.shapeColor=white
+bullet.shapeColor="white";
 }
 function draw(){
   background(150);
